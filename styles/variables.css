@@ -1,1 +1,29 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font-family: "Inter", sans-serif;
+  --accent-font-family: "PressStart2P", fantasy;
+  --main-font-weight: 400;
+  --title-font-weight: 700;
+  --content-width: clamp(23.438rem, 16.223rem + 30.782vw, 43.75rem);
+  --page-padding-block: 100px;
+  --page-padding-inline: 0;
+  --card-gap: 50px;
+  --card-content-gap: 25px;
+  --card-padding-inline: 25px;
+  --color-accent: #000;
+  --color-bg: #fff;
+  --color-stroke: #fff;
+  --button-text-color: #fff;
+  --like-contour-color: #000;
+  --animation-fill-color: #f00;
+  --page-background-gradient:
+    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+}
+
+@media (width <= 375px) {
+  :root {
+    --card-padding-inline: 28px;
+  }
+}
