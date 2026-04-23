@@ -11,7 +11,6 @@
 */
 
 .page {
-  --main-font-weight: 410;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   margin: 0;
@@ -61,7 +60,6 @@
 }
 
 .card__title {
-  --title-font-weight: 715;
   border-block-end: 2px solid var(--color-accent);
   padding: 4px 10px 6px;
   font-size: 18px;

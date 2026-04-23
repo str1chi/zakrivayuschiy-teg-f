@@ -2,8 +2,8 @@
 :root {
   --main-font-family: "Inter", sans-serif;
   --accent-font-family: "PressStart2P", fantasy;
-  --main-font-weight: 400;
-  --title-font-weight: 700;
+  --main-font-weight: 410;
+  --title-font-weight: 715;
   --content-width: clamp(23.438rem, 16.223rem + 30.782vw, 43.75rem);
   --page-padding-block: 100px;
   --page-padding-inline: 0;
