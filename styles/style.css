@@ -11,6 +11,7 @@
 */
 
 .page {
+  --main-font-weight: 410;
   min-inline-size: 320px;
   min-block-size: 100dvb;
   margin: 0;
@@ -60,6 +61,7 @@
 }
 
 .card__title {
+  --title-font-weight: 715;
   border-block-end: 2px solid var(--color-accent);
   padding: 4px 10px 6px;
   font-size: 18px;
@@ -186,6 +188,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
+  min-height: 55px;
   padding: 17px 20px;
 }
 
@@ -232,43 +235,43 @@
   text-transform: uppercase;
 }
 
-.card__img_1st {
+.card__img_grayscale {
   filter: grayscale(90%);
 }
 
-.card__img_2nd {
+.card__img_sepia {
   filter: sepia(80%);
 }
 
-.card__img_3rd {
+.card__img_contrast {
   filter: contrast(160%);
 }
 
-.card__img_4th {
+.card__img_saturate {
   filter: saturate(500%);
 }
 
-.card__img_5th {
+.card__img_hue {
   filter: hue-rotate(69deg);
 }
 
-.card__img_6th {
+.card__img_brightness {
   filter: brightness(0.7);
 }
 
-.card__img_7th {
+.card__img_blur {
   filter: blur(3px);
 }
 
-.card__img_8th {
+.card__img_mixed {
   filter: contrast(125%) brightness(1.05) saturate(135%);
 }
 
 .footer-section {
-  margin-inline: clamp(2.156rem, -9.243rem + 48.638vi, 34.531rem);
+  margin-inline: auto;
 }
 
-@media (width <= 375px) {
+@media (width <= 376px) {
   .header {
     margin-block-end: 100px;
   }
